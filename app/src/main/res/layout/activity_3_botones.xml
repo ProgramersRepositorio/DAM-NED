@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_3_botones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="87dp">
+
+        <TextView
+            android:id="@+id/textoPantalla"
+            android:layout_width="304dp"
+            android:layout_height="250dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="199dp"
+            android:layout_height="58dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="195dp"
+            android:layout_height="54dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="521dp" />
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="180dp"
+            android:layout_height="62dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="616dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
