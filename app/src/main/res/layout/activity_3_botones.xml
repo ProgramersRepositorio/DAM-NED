@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const_lay_3btns"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo_pantalla"
+    tools:context=".Activity_3_botones">
+
+    <TextView
+        android:id="@+id/textoPantalla"
+        android:layout_width="328dp"
+        android:layout_height="461dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center|top"
+        android:text="@string/texto_prueba"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoPantalla"
+        app:layout_constraintVertical_bias="0.873" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

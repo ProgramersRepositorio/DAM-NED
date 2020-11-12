@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_muerte">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <TextView
+            android:id="@+id/textoPantalla"
+            android:layout_width="254dp"
+            android:layout_height="227dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="264dp"
+            android:layout_height="120dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="467dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
