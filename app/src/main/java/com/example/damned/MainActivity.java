@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
         final MediaPlayer sonidoPortada = MediaPlayer.create(this, R.raw.horror_stories);
         sonidoPortada.start();
+        sonidoPortada.setVolume(0.1f, 0.1f);
+        final MediaPlayer sonidoAullido = MediaPlayer.create(this, R.raw.howling);
+        sonidoAullido.start();
+
 
 
 
@@ -50,12 +54,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                sonidoPortada.stop();
+                sonidoAullido.stop();
+                MediaPlayer sonidoBoton = MediaPlayer.create(MainActivity.this,R.raw.door);
+                sonidoBoton.start();
                 Intent intnt = new Intent(MainActivity.this, Activity_3_botones.class);
                 intnt.putExtra("codigoPantalla",pantallaActual.getCodigoPantalla());
                 startActivity(intnt);
                 finish();
             }
         });
+
+
     }
 }
