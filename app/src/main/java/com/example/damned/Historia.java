@@ -40,7 +40,7 @@ public class Historia
             new Pantalla(
                     0,
                     3,
-                    "Te despiertas en una habitacion oscura",
+                    "Te despiertas en una habitación oscura. Aturdido, la cabeza te da vueltas, y... no eres capaz de recordar tu nombre!! ¿Cómo era...? Ah si!! TOM THOORB!!",
                     null,
                     new Opciones(
                             "Buscas una luz",
@@ -49,7 +49,11 @@ public class Historia
                     new Opciones(
                             "Buscas una ventana",
                             2
-                    )
+                    ),
+                new Opciones(
+                        "Buscas una ventana",
+                        3
+                )
             ),
                     new Pantalla(
                             1,
