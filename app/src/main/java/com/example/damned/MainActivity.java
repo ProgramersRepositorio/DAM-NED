@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intnt = new Intent(MainActivity.this, Activity_2_botones.class);
+                Intent intnt = new Intent(MainActivity.this, Activity_3_botones.class);
                 intnt.putExtra("codigoPantalla",pantallaActual.getCodigoPantalla());
                 startActivity(intnt);
                 finish();

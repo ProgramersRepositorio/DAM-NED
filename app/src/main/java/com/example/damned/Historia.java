@@ -39,7 +39,7 @@ public class Historia
         {
             new Pantalla(
                     0,
-                    2,
+                    3,
                     "Te despiertas en una habitacion oscura",
                     null,
                     new Opciones(
