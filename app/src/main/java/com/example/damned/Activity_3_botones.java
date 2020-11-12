@@ -71,7 +71,7 @@ public class Activity_3_botones extends AppCompatActivity {
             }
         });
 
-        /*Button bot2 = (Button) findViewById(R.id.boton2);
+        Button bot2 = (Button) findViewById(R.id.boton2);
         bot2.setText(pantallaActual.getOpcion2().getTextoOpcion());
         bot2.setOnClickListener(new View.OnClickListener()
         {
@@ -108,9 +108,9 @@ public class Activity_3_botones extends AppCompatActivity {
                     }
                 }
             }
-        });*/
+        });
 
-        /*Button bot3 = (Button) findViewById(R.id.boton3);
+        Button bot3 = (Button) findViewById(R.id.boton3);
         bot3.setText(pantallaActual.getOpcion3().getTextoOpcion());
         bot3.setOnClickListener(new View.OnClickListener()
         {
@@ -143,6 +143,6 @@ public class Activity_3_botones extends AppCompatActivity {
                     }
                 }
             }
-        });*/
+        });
     }
 }

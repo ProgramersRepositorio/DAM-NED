@@ -10,14 +10,13 @@
 
     <TextView
         android:id="@+id/textoPantalla"
-        android:layout_width="328dp"
-        android:layout_height="461dp"
+        android:layout_width="317dp"
+        android:layout_height="385dp"
         android:layout_marginTop="56dp"
         android:fontFamily="@font/shpinscher"
         android:gravity="center|top"
-        android:text="@string/texto_prueba"
         android:textColor="@android:color/holo_red_dark"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,13 +24,55 @@
 
     <Button
         android:id="@+id/boton1"
-        android:layout_width="199dp"
-        android:layout_height="58dp"
+        android:layout_width="300dp"
+        android:layout_height="22dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:inputType="text"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:scrollbarSize="0dp"
         android:text="Button"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textoPantalla"
-        app:layout_constraintVertical_bias="0.873" />
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="300dp"
+        android:layout_height="22dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:capitalize="none"
+        android:inputType="text"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:scrollbarSize="0dp"
+        android:text="Button"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton1"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="300dp"
+        android:layout_height="22dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:capitalize="none"
+        android:inputType="text"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:scrollbarSize="0dp"
+        android:text="Button"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton2"
+        app:layout_constraintVertical_bias="0.03" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
