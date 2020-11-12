@@ -3,6 +3,7 @@ package com.example.damned;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -36,6 +37,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final MediaPlayer sonidoPortada = MediaPlayer.create(this, R.raw.horror_stories);
+        sonidoPortada.start();
+
+
+
         final Button boton = (Button) findViewById((R.id.btnMainView));
         boton.setOnClickListener(new View.OnClickListener()
         {
@@ -44,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
+                sonidoPortada.stop();
                 Intent intnt = new Intent(MainActivity.this, Activity_3_botones.class);
                 intnt.putExtra("codigoPantalla",pantallaActual.getCodigoPantalla());
                 startActivity(intnt);
