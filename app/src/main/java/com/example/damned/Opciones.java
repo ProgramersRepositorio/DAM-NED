@@ -4,7 +4,7 @@ package com.example.damned;
  *  -   String textoOpcion  -   El texto que se va a mostrar en el boton.
  *  -   int codigoPantallaReferenciada  -  El codigo de la pantalla a la que se pasara al pulsar este boton.
  *
- *      Los metodos de Pantalla agrupan los Getters y Setters de sus atributos y un constructor en el que
+ *      Los metodos de Opciones agrupan los Getters y Setters de sus atributos y un constructor en el que
  *      se piden los dos atributos.*/
 public class Opciones
 {

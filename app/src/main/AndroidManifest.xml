@@ -8,7 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DAMNED">
+
+        android:theme="@style/Theme.AppCompat.NoActionBar"> <!--modificada-->
+
         <activity android:name=".Activity_muerte"></activity>
         <activity android:name=".Activity_3_botones" />
         <activity android:name=".Activity_2_botones" />
@@ -23,3 +25,7 @@
     </application>
 
 </manifest>
+    <!--Se cambia el tag android:theme que está debajo de este párrafo
+    por la que aparece arriba en su bloque. Así se elimina la action bar
+    y se trabaja en pantalla completa-->
+    <!--android:theme="@style/Theme.DAMNED"-->

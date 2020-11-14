@@ -12,7 +12,7 @@
         android:id="@+id/textoPantalla"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="70dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/shpinscher"
         android:gravity="center|top"
@@ -21,7 +21,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/boton1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.75" />
@@ -29,8 +29,8 @@
     <Button
         android:id="@+id/boton1"
         android:layout_width="0dp"
-        android:layout_height="18dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="1dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:inputType="text"
         android:insetTop="0dp"
@@ -45,14 +45,13 @@
         app:iconPadding="0dp"
         app:layout_constraintBottom_toTopOf="@+id/boton2"
         app:layout_constraintEnd_toEndOf="@+id/textoPantalla"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textoPantalla" />
 
     <Button
         android:id="@+id/boton2"
         android:layout_width="0dp"
-        android:layout_height="18sp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="1dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:inputType="text"
         android:insetTop="0dp"
@@ -66,13 +65,12 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/boton3"
         app:layout_constraintEnd_toEndOf="@+id/textoPantalla"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textoPantalla" />
 
     <Button
         android:id="@+id/boton3"
         android:layout_width="0dp"
-        android:layout_height="18sp"
+        android:layout_height="30dp"
         android:layout_marginBottom="68dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:inputType="text"
@@ -82,12 +80,10 @@
         android:paddingTop="0dp"
         android:paddingRight="0dp"
         android:paddingBottom="0dp"
-        android:scrollbarSize="0dp"
         android:text="Button"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textoPantalla"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textoPantalla" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

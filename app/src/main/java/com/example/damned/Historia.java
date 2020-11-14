@@ -9,7 +9,7 @@ package com.example.damned;
  * El array se instancia con el metodo relacionPantallas, que es basicamente una lista de Pantallas en
  * las que vamos modificando los constructores para establecer los elementos de las pantallas.
  *
- * Para escribir una nueva Pantalla, copiar y pegar una de las ya echas o hacerlo a mano, pero tener
+ * Para escribir una nueva Pantalla, copiar y pegar una de las ya hechas o hacerlo a mano, pero tener
  * cuidado de seguir el orden en el que se establecen los atributos. Si en vez de escribir primero
  * codigoPantalla y luego tipoActivity se hace al reves va a petar, o como minimo, funcionar mal.
  *
@@ -38,79 +38,83 @@ public class Historia
         Pantalla[] pantallas =
         {
             new Pantalla(
-                    0,
-                    3,
-                    "Te despiertas en una habitación oscura. Aturdido, la cabeza te da vueltas, y... no eres capaz de recordar tu nombre!! ¿Cómo era...? Ah si!! \nTOM THOORB!!",
-                    null,
-                    new Opciones(
-                            "Buscas una luz",
-                            1
-                    ),
-                    new Opciones(
-                            "Buscas una ventana",
-                            2
-                    ),
+                0,
+                3,
+                "Te despiertas en la cama una habitación. Estás aturdido, y la cabeza te da vueltas." +
+                            " Todo está oscuro a tu alrededor, y la luz de la luna que se filtra por la ventana " +
+                            "apenas basta para iluminar tímidamente la estancia. \n\n¿Dónde estoy? - Piensas. No " +
+                            "reconoces nada de lo que te rodea y... a medida que recobras las facultades hay una " +
+                            "pregunta que empieza a acelerar tu respiración y tu pulso: \n\n¿QUIÉN SOY???",
+                null,
+                new Opciones(
+                        "Buscas una luz",
+                        1
+                ),
+                new Opciones(
+                        "Buscas una ventana",
+                        2
+                ),
                 new Opciones(
                         "Buscas una ventana",
                         3
                 )
             ),
-                    new Pantalla(
-                            1,
-                            2,
-                            "Palpas la pared y te encuentras con un interruptor. Lo enciendes",
-                            null,
-                            new Opciones(
-                                    "Inspeccionas la habitacion",
-                                    3
-                            ),
-                            new Opciones(
-                                    "Buscas una salida",
-                                    3
-                            )
-                    ),
-                    new Pantalla(
-                            2,
-                            2,
-                            "No encuentras una ventana",
-                            null,
-                            new Opciones(
-                                    "Buscas una luz",
-                                    1
-                            ),
-                            new Opciones(
-                                    "Buscas una salida",
-                                    4
-                            )
-                    ),
-                    new Pantalla(
-                            3,
-                            1,
-                            "Entra Mercedes y palmas",
-                            null,
-                            new Opciones(
-                                    "Volver a intentarlo",
-                                    0
-                            )
-                    ),
-                    new Pantalla(
-                            4,
-                            3,
-                            "Probando Activity de 3 opciones",
-                            null,
-                            new Opciones(
-                                    "Ir a activity de 1",
-                                    3
-                            ),
-                            new Opciones(
-                                    "Ir a activity de 2",
-                                    0
-                            ),
-                            new Opciones(
-                                    "Ir a esta misma que es de 3",
-                                    4
-                            )
-                    )
+            new Pantalla(
+                1,
+                2,
+                "Palpas la pared y te encuentras con un interruptor. Lo enciendes",
+                null,
+                new Opciones(
+                        "Inspeccionas la habitacion",
+                        3
+                ),
+                new Opciones(
+                        "Buscas una salida",
+                        3
+                )
+            ),
+            new Pantalla(
+                2,
+                2,
+                "No encuentras una ventana",
+                null,
+                new Opciones(
+                        "Buscas una luz",
+                        1
+                ),
+                new Opciones(
+                        "Buscas una salida",
+                        4
+                )
+            ),
+            new Pantalla(
+                3,
+                1,
+                "Entra Mercedes y palmas",
+                null,
+                new Opciones(
+                        "Volver a intentarlo",
+                        0
+                )
+            ),
+            new Pantalla(
+                4,
+                3,
+                "Probando Activity de 3 opciones",
+                null,
+                new Opciones(
+                        "Ir a activity de 1",
+                        3
+                ),
+                new Opciones(
+                        "Ir a activity de 2",
+                        0
+                ),
+                new Opciones(
+                        "Ir a esta misma que es de 3",
+                        4
+                )
+            )
         };
 
         return pantallas;
