@@ -67,6 +67,13 @@ public class Activity_3_botones extends AppCompatActivity {
                         finish();
                         break;
                     }
+                    case -1: {
+                        Intent intnt = new Intent(Activity_3_botones.this, Activity_muerte.class);
+                        intnt.putExtra("codigoPantalla", pantallaActual.getOpcion1().getCodigoPantallaReferenciada());
+                        startActivity(intnt);
+                        finish();
+                        break;
+                    }
                 }
             }
         });
@@ -106,6 +113,13 @@ public class Activity_3_botones extends AppCompatActivity {
                         finish();
                         break;
                     }
+                    case -1: {
+                        Intent intnt = new Intent(Activity_3_botones.this, Activity_muerte.class);
+                        intnt.putExtra("codigoPantalla", pantallaActual.getOpcion1().getCodigoPantallaReferenciada());
+                        startActivity(intnt);
+                        finish();
+                        break;
+                    }
                 }
             }
         });
@@ -137,6 +151,13 @@ public class Activity_3_botones extends AppCompatActivity {
                     case 3: {
                         Intent intnt = new Intent(Activity_3_botones.this, Activity_3_botones.class);
                         intnt.putExtra("codigoPantalla", pantallaActual.getOpcion3().getCodigoPantallaReferenciada());
+                        startActivity(intnt);
+                        finish();
+                        break;
+                    }
+                    case -1: {
+                        Intent intnt = new Intent(Activity_3_botones.this, Activity_muerte.class);
+                        intnt.putExtra("codigoPantalla", pantallaActual.getOpcion1().getCodigoPantallaReferenciada());
                         startActivity(intnt);
                         finish();
                         break;

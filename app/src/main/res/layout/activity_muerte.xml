@@ -2,31 +2,79 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const_lay_3btns"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".Activity_muerte">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="49dp">
+    <ImageView
+        android:id="@+id/ivMuerte"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:gravity="center|top"
+        app:layout_constraintEnd_toEndOf="@+id/textoPantalla"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textoPantalla"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textoPantalla"
-            android:layout_width="254dp"
-            android:layout_height="227dp"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="62dp"
-            tools:layout_editor_absoluteY="127dp" />
+    <TextView
+        android:id="@+id/textoPantalla"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/shpinscher"
+        android:gravity="center|top"
+        android:letterSpacing="0.08"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/boton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMuerte"
+        app:layout_constraintWidth_percent="0.75" />
 
-        <Button
-            android:id="@+id/boton1"
-            android:layout_width="264dp"
-            android:layout_height="120dp"
-            android:text="Button"
-            tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="467dp" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:inputType="text"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:scrollbarSize="0dp"
+        android:text="Button"
+        android:textSize="12sp"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/boton2"
+        app:layout_constraintEnd_toEndOf="@+id/textoPantalla"
+        app:layout_constraintStart_toStartOf="@+id/textoPantalla" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:inputType="text"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:scrollbarSize="0dp"
+        android:text="Button"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textoPantalla"
+        app:layout_constraintStart_toStartOf="@+id/textoPantalla" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -70,6 +70,13 @@ public class Activity_2_botones extends AppCompatActivity {
                         finish();
                         break;
                     }
+                    case -1: {
+                        Intent intnt = new Intent(Activity_2_botones.this, Activity_muerte.class);
+                        intnt.putExtra("codigoPantalla", pantallaActual.getOpcion1().getCodigoPantallaReferenciada());
+                        startActivity(intnt);
+                        finish();
+                        break;
+                    }
                 }
             }
         });
@@ -105,6 +112,13 @@ public class Activity_2_botones extends AppCompatActivity {
                     {
                         Intent intnt = new Intent(Activity_2_botones.this, Activity_3_botones.class);
                         intnt.putExtra("codigoPantalla",pantallaActual.getOpcion2().getCodigoPantallaReferenciada());
+                        startActivity(intnt);
+                        finish();
+                        break;
+                    }
+                    case -1: {
+                        Intent intnt = new Intent(Activity_2_botones.this, Activity_muerte.class);
+                        intnt.putExtra("codigoPantalla", pantallaActual.getOpcion1().getCodigoPantallaReferenciada());
                         startActivity(intnt);
                         finish();
                         break;

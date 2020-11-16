@@ -21,6 +21,14 @@ public class Opciones
                         this.codigoPantallaReferenciada = codigoPantallaReferenciada;
                 }
 
+    public Opciones      //Constructor específico para la pantalla de muerte sin pantalla referenciada
+                (
+                        String textoOpcion
+                )
+                {
+                        this.textoOpcion= textoOpcion;
+                }
+
     public String getTextoOpcion() {
         return textoOpcion;
     }

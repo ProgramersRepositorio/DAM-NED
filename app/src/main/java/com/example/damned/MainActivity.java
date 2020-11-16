@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         final MediaPlayer sonidoPortada = MediaPlayer.create(this, R.raw.horror_stories);
         sonidoPortada.start();
         sonidoPortada.setVolume(0.1f, 0.1f);
-        final MediaPlayer sonidoAullido = MediaPlayer.create(this, R.raw.howling);
+        MediaPlayer sonidoAullido = MediaPlayer.create(this, R.raw.howling);
         sonidoAullido.start();
 
 
