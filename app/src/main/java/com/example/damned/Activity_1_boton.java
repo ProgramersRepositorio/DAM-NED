@@ -67,6 +67,13 @@ public class Activity_1_boton extends AppCompatActivity {
                         finish();
                         break;
                     }
+                    case -1: {
+                        Intent intnt = new Intent(Activity_1_boton.this, Activity_muerte.class);
+                        intnt.putExtra("codigoPantalla", pantallaActual.getOpcion1().getCodigoPantallaReferenciada());
+                        startActivity(intnt);
+                        finish();
+                        break;
+                    }
                 }
             }
         });
